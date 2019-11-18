@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt_lap_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Flanel"
+            android:textColor="@color/colorMain" />
+
+        <TextView
+            android:id="@+id/txt_tot_lap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rp, 000"
+            android:textStyle="bold"
+            android:textColor="@color/colorMain"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txt_desc_lap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorMain"
+        android:text="INV00001 | Joko" />
+
+    <TextView
+        android:id="@+id/txt_id_lap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PNJ-00001"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorMain" />
+</LinearLayout>

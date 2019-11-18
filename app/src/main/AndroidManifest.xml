@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uts.harveys.com.harveys">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MasterActivity" />
+        <activity android:name=".TransaksiActivity" />
+        <activity android:name=".LaporanActivity" />
+        <activity android:name=".Master.KaryawanActivity" />
+        <activity android:name=".Master.BarangActivity" />
+        <activity android:name=".Master.SupplierActivity" />
+        <activity android:name=".Master.KaryawanInputActivity" />
+        <activity android:name=".Master.KaryawanEditActivity" />
+        <activity android:name=".Master.BarangInputActivity" />
+        <activity android:name=".Master.BarangEditActivity" />
+        <activity android:name=".Master.SupplierInputActivity" />
+        <activity android:name=".Master.SupplierEditActivity" />
+        <activity android:name=".Transaksi.PenjualanActivity" />
+        <activity android:name=".Transaksi.PenjualanBarangActivity" />
+        <activity android:name=".Transaksi.PembelianActivity" />
+        <activity android:name=".Transaksi.PembelianBarangActivity" />
+        <activity android:name=".Laporan.LaporanPenjualanActivity" />
+        <activity android:name=".Laporan.LaporanPenjualanDetailActivity" />
+        <activity android:name=".Laporan.LaporanPembelianActivity" />
+        <activity android:name=".Laporan.LaporanPembelianDetailActivity" />
+        <activity android:name=".Laporan.LaporanStokActivity"/>
+    </application>
+
+</manifest>

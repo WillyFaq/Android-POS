@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uts.harveys.com.harveys.Transaksi.PembelianBarangActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        style="@style/Widget.AppCompat.ActionBar.Solid"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List Barang"
+            android:textColor="@color/colorMain"
+            android:layout_marginStart="20dp"
+            android:textSize="10pt"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/cari_barang_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cari Barang..."
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:textColorHint="@color/colorMain"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorMain"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+    <ListView
+        android:id="@+id/list_barang_penjualan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+</LinearLayout>

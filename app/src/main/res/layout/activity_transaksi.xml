@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMain"
+    tools:context="uts.harveys.com.harveys.TransaksiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        style="@style/Widget.AppCompat.ActionBar.Solid"
+        android:padding="10dp"
+        android:layout_marginBottom="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_transaksi"
+            android:textColor="@color/colorMain"
+            android:layout_marginStart="20dp"
+            android:textSize="10pt"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_penjualan"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_transaksi_penjualan"
+        android:textAlignment="textStart"
+        android:drawableTint="@color/colorPrimary"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_penjualan"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        tools:ignore="RtlCompat" />
+    <Button
+        android:id="@+id/btn_pembelian"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_transaksi_pembelian"
+        android:textAlignment="textStart"
+        android:drawableTint="@color/colorPrimary"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_pembelian"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        tools:ignore="RtlCompat" />
+</LinearLayout>

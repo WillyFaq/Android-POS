@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Harveys</string>
+
+    <!-- Login Activity. -->
+    <string name="str_login">Login</string>
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+
+    <!-- Main Activity. -->
+    <string name="menu_main">Main Menu</string>
+    <string name="menu_main_master">Master</string>
+    <string name="menu_main_transaksi">Transaksi</string>
+    <string name="menu_main_laporan">Laporan</string>
+
+    <!-- Master Activity. -->
+    <string name="menu_mater">Menu Master</string>
+    <string name="menu_mater_karyawan">Karyawan</string>
+    <string name="menu_mater_barang">Barang</string>
+    <string name="menu_mater_supplier">Supplier</string>
+
+    <!-- Transaksi Activity. -->
+    <string name="menu_transaksi">Menu Transaksi</string>
+    <string name="menu_transaksi_penjualan">Penjualan</string>
+    <string name="menu_transaksi_pembelian">Pembelian</string>
+
+    <!-- Laporan Activity. -->
+    <string name="menu_laporan">Menu Laporan</string>
+    <string name="menu_laporan_penjualan">Laporan Penjualan</string>
+    <string name="menu_laporan_penjualan_detail">Laporan Penjualan Detail</string>
+    <string name="menu_laporan_pembelian">Laporan Pembelian</string>
+    <string name="menu_laporan_pembelian_detail">Laporan Pembelian Detail</string>
+    <string name="menu_laporan_stok">Stok</string>
+
+    <!-- Karyawan Activity. -->
+    <string name="master_karyawan">Master Karyawan</string>
+    <string name="master_karyawan_tambah">Tambah Karyawan</string>
+    <string name="master_karyawan_detail">Detail Karyawan</string>
+
+    <string name="karyawan_kode">Kode Karyawan</string>
+    <string name="karyawan_nama">Nama Karyawan</string>
+    <string name="karyawan_telp">Telp Karyawan</string>
+
+    <!-- Barang Activity. -->
+    <string name="master_barang">Master Barang</string>
+    <string name="master_barang_tambah">Tambah Barang</string>
+    <string name="master_barang_detail">Detail Barang</string>
+
+    <string name="barang_kode">Kode Barang</string>
+    <string name="barang_supplier">Supplier</string>
+    <string name="barang_nama">Nama Barang</string>
+    <string name="barang_jenis">Jenis Barang</string>
+    <string name="barang_beli">Harga Beli</string>
+    <string name="barang_jual">Harga Jual</string>
+    <string name="barang_size">Size</string>
+    <string name="barang_warna">Warna</string>
+    <string name="barang_stok">Stok</string>
+
+    <!-- Supplier Activity. -->
+    <string name="master_supplier">Master Supplier</string>
+    <string name="master_supplier_tambah">Tambah Supplier</string>
+    <string name="master_supplier_detail">Detail Supplier</string>
+
+    <string name="supplier_kode">Kode Supplier</string>
+    <string name="supplier_nama">Nama Supplier</string>
+    <string name="supplier_telp">Telp Supplier</string>
+    <string name="supplier_alamat">Alamat Supplier</string>
+
+    <!-- Penjualan Activity. -->
+    <string name="transaksi_penjualan">Transaksi Penjualan</string>
+
+    <string name="penjualan_kode">Kode Penjualan</string>
+    <string name="penjualan_tanggal">Tanggal</string>
+    <string name="penjualan_customer">Nama Customer</string>
+
+    <string name="penjualan_barang_nama">Barang</string>
+    <string name="penjualan_barang_harga">Harga</string>
+    <string name="penjualan_barang_jumlah">Jumlah</string>
+    <string name="penjualan_barang_total">Sub Total</string>
+    <string name="penjualan_total">Total</string>
+
+
+    <!-- Pembelian Activity. -->
+    <string name="transaksi_pembelian">Transaksi Penjualan</string>
+
+    <string name="pembelian_kode">Kode Penjualan</string>
+    <string name="pembelian_tanggal">Tanggal</string>
+    <string name="pembelian_supplier">Nama Supplier</string>
+
+    <string name="pembelian_barang_nama">Barang</string>
+    <string name="pembelian_barang_harga">Harga</string>
+    <string name="pembelian_barang_jumlah">Jumlah</string>
+    <string name="pembelian_barang_total">Sub Total</string>
+    <string name="pembelian_total">Total</string>
+
+    <!-- Laporan Activity. -->
+    <string name="laporan_penjualan">Laporan Penjualan</string>
+    <string name="laporan_penjualan_detail">Laporan Penjualan Detail</string>
+    <string name="laporan_pembelian">Laporan Pembelian Detail</string>
+    <string name="laporan_pembelian_detail">Laporan Pembelian Detail</string>
+    <string name="laporan_stok">Laporan Stok</string>
+    <string name="laporan_tanggal_awal">Tanggal Awal</string>
+    <string name="laporan_tanggal_akhir">Tanggal Akhir</string>
+    <string name="laporan_sd">s/d</string>
+
+
+
+    <!-- All Activity. -->
+    <string name="button_tambah">Tambah</string>
+    <string name="button_simpan">Simpan</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_hapus">Hapus</string>
+    <string name="button_cari">Cari</string>
+
+    <string-array name="size_barang_arr">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+</resources>
